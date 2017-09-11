@@ -14,13 +14,13 @@ This project provides a Serverless Alexa Skill to control EC2 machines from with
 There is currently no detailed instructions as the project is just a proof of concept. 
 
 1. Visit the <a href="https://console.aws.amazon.com/lambda">AWS Lambda Dashboard</a> and click `Create function`
-a. Choose `Author From Scratch`
-b. Set Trigger to `Alexa Skills Kit`
-c. Name your Function and set the Description
-d. Set Runtime to `Python 2.7`
-e. Zip up the index.py file in the ConsoleLambda directory and upload as Lambda function code
-f. Set Handler to `index.handler`
-g. Under Advanced settings set Timeout to `10 sec` and Memory to `512MB`
+	1. Choose `Author From Scratch`
+	2. Set Trigger to `Alexa Skills Kit`
+	3. Name your Function and set the Description
+	4. Set Runtime to `Python 2.7`
+	5. Zip up the index.py file in the ConsoleLambda directory and upload as Lambda function code
+	6. Set Handler to `index.handler`
+	7. Under Advanced settings set Timeout to `10 sec` and Memory to `512MB`
 2. Configure an Alexa Skill using the contents of the ConsoleSkill folder and the ARN of your above Lambda Function in the <a href="https://developer.amazon.com/edw/home.html">Alexa Skills Dashboard</a>.
 3. Return to the Lambda function and uncomment lines 29-31 and paste your Alexa Skills Application ID on line 30.
 
