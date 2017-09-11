@@ -1,0 +1,44 @@
+{
+  "intents": [
+    {
+      "intent": "Start",
+      "slots": [
+        {
+          "name": "Text",
+          "type": "LITERAL"
+        }
+      ]
+    },
+    {
+      "intent": "Stop",
+      "slots": [
+        {
+          "name": "Text",
+          "type": "LITERAL"
+        }
+      ]
+    },
+    {
+      "intent": "Reboot",
+      "slots": [
+        {
+          "name": "Text",
+          "type": "LITERAL"
+        }
+      ]
+    },
+    {
+      "intent": "Describe",
+      "slots": [
+        {
+          "name": "Text",
+          "type": "LITERAL"
+        }
+      ]
+    },
+    {
+      "intent": "HelpIntent",
+      "slots": []
+    }
+  ]
+}
