@@ -19,8 +19,8 @@ There is currently no detailed instructions as the project is just a proof of co
 	3. Name your Function and set the Description
 	4. Set Runtime to `Python 2.7`
 	5. Zip up the lambda_function.py file in the ConsoleLambda directory and upload as Lambda function code
-	6. Set Handler to `index.handler`
-	7. Under Advanced settings set Timeout to `10 sec` and Memory to `512MB`
+	6. Under Advanced settings set Timeout to `10 sec` and Memory to `512MB`
+	7. Select an existing role with EC2 access and CloudWatch Logs Write access
 2. Configure an Alexa Skill using the contents of the ConsoleSkill folder and the ARN of your above Lambda Function in the <a href="https://developer.amazon.com/edw/home.html">Alexa Skills Dashboard</a>.
 3. Return to the Lambda function and uncomment lines 29-31 and paste your Alexa Skills Application ID on line 30.
 
