@@ -18,7 +18,7 @@ There is currently no detailed instructions as the project is just a proof of co
 	2. Set Trigger to `Alexa Skills Kit`
 	3. Name your Function and set the Description
 	4. Set Runtime to `Python 2.7`
-	5. Zip up the index.py file in the ConsoleLambda directory and upload as Lambda function code
+	5. Zip up the lambda_function.py file in the ConsoleLambda directory and upload as Lambda function code
 	6. Set Handler to `index.handler`
 	7. Under Advanced settings set Timeout to `10 sec` and Memory to `512MB`
 2. Configure an Alexa Skill using the contents of the ConsoleSkill folder and the ARN of your above Lambda Function in the <a href="https://developer.amazon.com/edw/home.html">Alexa Skills Dashboard</a>.
